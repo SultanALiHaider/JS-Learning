@@ -1,0 +1,7 @@
+Data Types Primitive:(6)<br>
+String,number,boolen,undefined,Null,Symbols <br>
+Object(5) <br>
+Object, array,function,Date,Regular Expresion <br>
+Special Data Types:(1) Bigint<br>
+<br>#Exersice:1 & opraters <br>
+var name=prompt("Please enter your name"); if(name === ""){ console.log("Hi") }else{ console.log("Hi"+ name + "How are you!") }
