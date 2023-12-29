@@ -27,3 +27,9 @@ let offer=val/10;
 console.log(val-offer)
 }
 
+"Array Methods"
+pop():use to remove last elem 
+Shift() use to remove first elem 
+unshift() use to add elem in start
+push() add elem in last
+splice remove or remove and add 
