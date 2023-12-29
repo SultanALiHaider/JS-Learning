@@ -1,0 +1,22 @@
+Arrays:
+Index of array
+Looping over an array:
+Using For Loop
+let cities=["Lahore","Islamabad","Faisalabad","Gujranwala"];
+for(let indx=0; indx<cities.length; indx++){
+console.log(cities[indx])
+}
+Using For-of loop:
+let cities=["Lahore","Sargodha","Faisalabad","Gujranwala"];
+for (const city of cities) {
+    console.log(city)
+}
+Pracitse question
+//Calculate average of students marks
+let marks=[85,97,98,77,32,23,67];
+let sum=0;
+for (const num of marks) {
+sum=sum + num;
+}
+let avg=sum/marks.length
+console.log(avg)
