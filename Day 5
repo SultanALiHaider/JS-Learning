@@ -20,3 +20,10 @@ sum=sum + num;
 }
 let avg=sum/marks.length
 console.log(avg)
+//Calculate value after offer
+let Price=[200,280,180,700,300,200,600];
+for (const val of Price) {
+let offer=val/10;
+console.log(val-offer)
+}
+
