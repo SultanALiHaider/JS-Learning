@@ -1,0 +1,20 @@
+Functions:::
+1:::
+function sum(x,y){//Parameters
+    console.log(x+y);
+}
+sum(12,12)//argument
+Parameter main use hoonay walay x,y blocked scope hoon gy
+2:::
+function sum(x,y){
+s=x+y;
+ return s;//return k bahad function main koi code nhi chlay ga 
+}
+let val=sum(12,12)
+console.log(val)
+3:::
+Arrow Functions:
+const sum=(x,y)=>{
+    console.log(x+y)
+}
+sum(12,13)
