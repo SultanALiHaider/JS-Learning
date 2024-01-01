@@ -1,0 +1,16 @@
+ForEach Loop::Use to perfoam some calculation on values
+/*Program to calculate squre of values of an array*/
+/*Print squre of each value which is in array*/
+var numbers=[10,20,30,40,50];
+numbers.forEach(val=>{
+    console.log(val*val);
+})
+Map::Use to store values in new array
+/*Print squre of each value which is in array*/
+var numbers=[10,20,30,40,50];
+numbers.map(val=>
+    {
+        let ans=val*val
+        console.log(ans)
+    }
+)
