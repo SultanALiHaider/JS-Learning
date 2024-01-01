@@ -21,3 +21,13 @@ var NewArr=Arr.filter(val=>{
     return val>85;
 })
 console.log(NewArr)
+:::DOM:::
+When a page is loaded,the browser create DOM of the Page
+Selection in DOM
+Selectionbyqueryselector("")
+we have to use dot in starting of Class
+we have to use # in starting of ID
+if we select through query selector and by tag names then we can use 
+Selectionbyqueryselectorall("")
+in this method it will select first tag like if we select h1 tags it will select first h1
+
