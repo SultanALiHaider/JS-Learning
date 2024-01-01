@@ -1,2 +1,9 @@
-Filter::
+:::Filter:::
 create a new array after a true condition for whose elements which are given in an array
+/*Print squre of each value which is in array*/
+var Arr=[1,2,3,4,5,6,7,8,9,10];
+var NewArr=Arr.filter(val=>{
+    return val%2==0;
+})
+console.log(NewArr)
+:::Reduce:::
