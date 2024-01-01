@@ -15,3 +15,9 @@ var NewArr=Arr.reduce((Pre,curr)=>{
 console.log(NewArr)
 Practice Question
 /*filter 85+ marks using filter method*/
+/*Print squre of each value which is in array*/
+var Arr=[56,12,45,67,89,97,93,54,56,34,95];
+var NewArr=Arr.filter(val=>{
+    return val>85;
+})
+console.log(NewArr)
