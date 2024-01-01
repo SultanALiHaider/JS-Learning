@@ -13,3 +13,5 @@ var NewArr=Arr.reduce((Pre,curr)=>{
    return Pre+curr;
 })
 console.log(NewArr)
+Practice Question
+/*filter 85+ marks using filter method*/
