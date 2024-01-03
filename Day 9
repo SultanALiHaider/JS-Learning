@@ -1,0 +1,8 @@
+Change inner text using DOM
+let a=document.querySelector("h2");
+a.innerHTML= a.innerText + "Day9";
+Selection of  three divs with same class and add some text in it
+let a=document.querySelectorAll(".box");
+a[0].innerHTML="Hello"
+a[1].innerHTML="Hello"
+a[2].style.backgroundColor="red"
