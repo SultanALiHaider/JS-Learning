@@ -1,0 +1,87 @@
+/*  1::::Paramet upper walay hoon gy aur argument nichy walay */
+/*2:::: Truthy & False 
+All thigns are thuthy except falsy and 6 falsy 0, null , undefined , NaN , doucoument.all ,false
+
+if(-1){
+    console.log("Hello");
+}else{
+    console.log("HY");
+}*/
+/*
+First class function::Which we treated as a variable;
+Highar order function:: Where pass function as a parameter or return afunction or both;
+*/
+/*  Constructor Function is a special type of function that is used to create and initialize objects. When you want to create multiple instances of objects with similar properties and methods, you can use a constructor function as a blueprint for those objects.
+function member(name,donation,head){
+    this.name=name,
+    this.donation=donation,
+    this.head=head
+     this.saythanks=function(){
+    console.log(`${name} we are thank full to you for the donation of ${donation} for ${head} `)}
+}
+var member1=new member("Zahid Anjum",5000,"Construction");
+var member2=new member("Haider zaidi",1000,"january 2023");
+var member3=new member("baqar zaidi",8000,"Solar");
+var member4=new member("Faran Bukhari",3000,"Bill");
+var member5=new member("Imran Hassan",2000,"Tiles");
+
+
+
+new member1.saythanks;
+new member2.saythanks;
+new member3.saythanks;
+new member4.saythanks;
+new member5.saythanks;
+*/
+/*new keyword used in constructor function */
+/*Iife::immediately invoked function expression*/
+/*Getter and setter
+getter is a method which is used to get value for specifice property
+setter is a method which is used to set value for specifice property
+var ans=(function(){
+    var a=12;
+    return{
+        getter:function(){
+            console.log(a);
+        },setter:function(val){
+              a=val;
+            }
+        
+    }
+})
+()*/
+/*Prototype::IS an object that associated with every function and object by default */
+/*Prototype Inheritance:::
+var father={
+    human:true,
+    CanEat:true,
+    CanFly:false,
+}
+var child={
+    CanDrink:true,
+    CanSwim:true,
+    CanSee:true
+}
+father._proto_=child;
+*/
+/* Promises */
+/*
+var promise=new Promise((res,rej)=>{
+    var num=Math.floor(Math.random()*10);
+    if(num<5){
+                 return res();
+    }
+    else{
+        return rej();
+    }
+})
+promise.then(
+    function(){
+        console.log("Accepted")
+    })
+    .catch(
+    function(){
+        console.log("Rejected")
+    }
+    )
+    */
