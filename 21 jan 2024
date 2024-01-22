@@ -1,0 +1,81 @@
+/*Rest & Spread
+function abc(a,b,c,...d){
+    console.log(a);
+    console.log(d)
+
+}
+abc(1,2,3,4,5,6,7,8,9)
+
+var a=[10,20,30,40]
+//var b=a;
+var b=[...a];
+a.pop()
+*/
+/*Getter & Setter 
+var ans=(function(){
+    var a=12;
+    return{
+        getter:function(){
+            console.log(a);
+        },setter:function(val){
+           a=val;
+        }
+    }
+})
+() //Function Call 
+*/
+/*Constructor Function */
+/*function member (name,donation,head){
+    this.name=name;
+    this.donation=donation;
+    this.head=head;
+    this.saythanks=function(){
+        console.log(`${name} thanks for your donation of ${donation}PKR for ${head}`)
+    }
+    }
+var member1=new member("Ali",3000,"jun");
+var member2=new member("Ahmad",4000,"Construction");
+var member3=new member("baqar",2000,"Solar");
+var member4=new member("Ahsan",1000,"Niaz");
+new member1.saythanks;
+*/
+/*
+var ans =new Promise((res,rej)=>{
+var num= (Math.random()*10).toFixed(0);
+console.log(num)
+if(num>5){
+    return res();
+}
+else{
+    return rej();
+}
+})
+ans.then(
+    function(){
+        console.log("No is Accepted")
+    }
+).catch(
+    function(){
+        console.log("No is rejected")
+    }
+)
+*/
+/*
+var a=[10,20,30,40,50];
+var [b,,,c,d]=a;
+console.log(b)
+console.log(d)
+*//*
+var person={
+    name:"Ali",
+    age:19
+}
+var{age}=person;
+*/
+//Try & Catch
+//try and catch are keywords used in error handling to manage exceptions or errors that may occur during the execution of a block of code.
+/*try {
+    console.log(b)
+} catch (error) {
+       console.log("Error Because",error.message)
+}*/
